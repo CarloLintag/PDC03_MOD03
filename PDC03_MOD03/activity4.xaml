@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity4">
+    <ContentPage.Content>
+        <StackLayout >
+            
+            <Frame BackgroundColor="LightGray" Padding="10" CornerRadius="0">
+                <Label Text="Activity04" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            
+            <AbsoluteLayout Padding="20" VerticalOptions="CenterAndExpand">
+
+                <Label Text="Tweetir Registration" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Start" TextColor="SkyBlue"
+                       AbsoluteLayout.LayoutBounds="0,0,1,40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"/>
+
+                <Entry Placeholder="Email"
+                       AbsoluteLayout.LayoutBounds="0,60,1,40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"/>
+                
+                <Entry Placeholder="Username"
+                       AbsoluteLayout.LayoutBounds="0,120,1,40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"/>
+                
+                <Entry Placeholder="Phone Number"
+                       AbsoluteLayout.LayoutBounds="0,180,1,40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"/>
+
+                <Entry Placeholder="Password"
+                       AbsoluteLayout.LayoutBounds="0,240,1,40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"/>
+
+                <Entry Placeholder="Re-type Password"
+                       AbsoluteLayout.LayoutBounds="0,300,1,40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"/>
+
+                <Button Text="Sign UP" TextColor="White" WidthRequest="100" BackgroundColor="SkyBlue"
+                        AbsoluteLayout.LayoutBounds="0,360,1,40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"/>
+
+                <Label Text="OR"  TextColor="Gray" HorizontalOptions="Center" VerticalOptions="Center" 
+                       AbsoluteLayout.LayoutBounds="0,420,1,40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"/>
+
+                <Label Text="Log in with Bookface"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="Green" WidthRequest="150"
+                       AbsoluteLayout.LayoutBounds="0,480,1,40"
+                       AbsoluteLayout.LayoutFlags="XProportional,WidthProportional"/>
+
+            </AbsoluteLayout>
+                
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

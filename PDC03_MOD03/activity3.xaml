@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity3">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="100"/>
+                </Grid.RowDefinitions>
+                
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <BoxView Grid.ColumnSpan="3" Grid.Row="1" Color="LightGray"/>
+                <Label Text="Activity03"
+                       FontSize="Large"
+                       Grid.ColumnSpan="3" Grid.Row="1"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <BoxView Grid.ColumnSpan="3" Grid.Row="2"  Color="#5F9EA0"/>
+                <Label Text="League of Legends"
+                       TextColor="White"
+                       FontSize="Large"
+                       Grid.ColumnSpan="3" Grid.Row="2"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+                <Label Text="Patch 12.8 Jungle Tier List"
+                       FontSize="Large"
+                       Grid.ColumnSpan="3" Grid.Row="3"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <BoxView Grid.Column="0" Grid.Row="4" Color="#B22222"/>
+                <Label Text="Optimal"
+                       TextColor="White"
+                       FontSize="Large"
+                       Grid.Column="0" Grid.Row="4"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <BoxView Grid.Column="1" Grid.Row="4" Color="#FF8C00"/>
+                <Label Text="Great"
+                       TextColor="White"
+                       FontSize="Large"
+                       Grid.Column="1" Grid.Row="4"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <BoxView Grid.Column="2" Grid.Row="4" Color="#FFD700"/>
+                <Label Text="Good"
+                       TextColor="White"
+                       FontSize="Large"
+                       Grid.Column="2" Grid.Row="4"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <BoxView Grid.Column="0" Grid.Row="5" Grid.RowSpan="11" Color="#B22222"/>
+                <Label Text="Nocturne"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="0" Grid.Row="5"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Volibear"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="0" Grid.Row="6"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Diana"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="0" Grid.Row="7"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Trundle"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="0" Grid.Row="8"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Sejuani"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="0" Grid.Row="9"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Wukong"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="0" Grid.Row="10"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+
+                <BoxView Grid.Column="1" Grid.Row="5" Grid.RowSpan="11" Color="#FF8C00"/>
+                <Label Text="Kayn"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="1" Grid.Row="5"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Graves"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="1" Grid.Row="6"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Lilia"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="1" Grid.Row="7"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Elise"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="1" Grid.Row="8"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Ekko"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="1" Grid.Row="9"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Amumu"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="1" Grid.Row="10"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <BoxView Grid.Column="2" Grid.Row="5" Grid.RowSpan="11" Color="#FFD700"/>
+                <Label Text="Lee Sin"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="2" Grid.Row="5"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Viego"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="2" Grid.Row="6"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Jarvan IV"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="2" Grid.Row="7"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Zed"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="2" Grid.Row="8"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Xin Zhao"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="2" Grid.Row="9"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+                <Label Text="Karthus"
+                       TextColor="White"
+                       FontSize="Medium"
+                       Grid.Column="2" Grid.Row="10"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+
+
+
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

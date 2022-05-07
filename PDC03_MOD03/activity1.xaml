@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity1">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Frame BackgroundColor="LightGray" Padding="10" CornerRadius="0">
+                <Label Text="Activity01" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+
+            <Label Text="Twitter" FontSize="Large" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Start" TextColor="SkyBlue"></Label>
+            <Entry Placeholder="Username or Email"></Entry>
+            <Entry Placeholder="Password"></Entry>
+            <Label Text="Forgot Password?" TextColor="Salmon" HorizontalOptions="End" VerticalOptions="End" >
+            </Label>
+            <Button Text="Log In" TextColor="White" WidthRequest="100" BackgroundColor="SkyBlue"></Button>
+            <Label Text="OR"  TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" ></Label>
+            <Label Text="Log in with Facebook"  HorizontalOptions="Center" VerticalOptions="Center" TextColor="SkyBlue" WidthRequest="150">
+            </Label>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="0,30,0,0">
+                <Label Text="Don't have an account?" WidthRequest="170"></Label>
+                <Button Text="Sign up" HorizontalOptions="Center" VerticalOptions="End" TextColor="White" BackgroundColor="Green"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

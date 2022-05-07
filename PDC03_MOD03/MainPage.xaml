@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#C63287" Padding="24" CornerRadius="0">
+            <Label Text="Module 3" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Button Text="Activity01-StackLayout" Clicked="Activity01"
+                HorizontalOptions="Center" VerticalOptions="End" TextColor="White" BackgroundColor="#D44C9C "/>
+
+        <Button Text="Activity02-StackLayout and Frame" Clicked="Activity02"
+                HorizontalOptions="Center" VerticalOptions="End" TextColor="White" BackgroundColor="	#E366B1"/>
+
+        <Button Text="Activity03-Grid" Clicked="Activity03"
+                HorizontalOptions="Center" VerticalOptions="End" TextColor="White" BackgroundColor="#F17FC5"/>
+
+        <Button Text="Activity04-Absolute Layout" Clicked="Activity04"
+                HorizontalOptions="Center" VerticalOptions="End" TextColor="White" BackgroundColor="#FF99DA"/>
+
+        <Button Text="Activity05-RelativeLayout" Clicked="Activity05"
+                HorizontalOptions="Center" VerticalOptions="End" TextColor="White" BackgroundColor="#FF99DA"/>
+
+        <Button Text="Activity06-DisplayImage" Clicked="Activity06"
+                HorizontalOptions="Center" VerticalOptions="End" TextColor="White" BackgroundColor="#FF99DA"/>
+
+
+    </StackLayout>
+
+</ContentPage>

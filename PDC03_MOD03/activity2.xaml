@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC03_MOD03.activity2"
+             BackgroundColor="Salmon">
+    <ContentPage.Content>
+        <StackLayout Margin="30">
+            <Frame BorderColor="Black"  BackgroundColor="WhiteSmoke" Padding="10" CornerRadius="0">
+                <Label Text="Activity02" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36"/>
+            </Frame>
+
+            <Frame BorderColor="Black" Padding="5" BackgroundColor="WhiteSmoke">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Name: " FontSize="Large" HorizontalOptions="Center" TextColor="black"/>
+                    <Label Text="Carlo Lintag " FontSize="Large" TextColor="black" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Black" Padding="5" BackgroundColor="WhiteSmoke">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Section: " FontSize="Large" HorizontalOptions="Center" TextColor="black"/>
+                    <Label Text="BS IT 3" FontSize="Large" TextColor="black" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Black" Padding="5" BackgroundColor="WhiteSmoke">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Birthdate: " FontSize="Large" HorizontalOptions="Center" TextColor="black"/>
+                    <Label Text="10/07/1999" FontSize="Large" TextColor="black" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Black" Padding="5" BackgroundColor="WhiteSmoke">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="League: " FontSize="Large" HorizontalOptions="Center" TextColor="black"/>
+                    <Label Text="Rook" FontSize="Large" TextColor="black" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Black" Padding="5" BackgroundColor="WhiteSmoke">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Role: " FontSize="Large" HorizontalOptions="Center" TextColor="black"/>
+                    <Label Text="Mid" FontSize="Large" TextColor="black" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Black" Padding="5" BackgroundColor="WhiteSmoke">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Valorant: " FontSize="Large" HorizontalOptions="Center" TextColor="black"/>
+                    <Label Text="Shifty" FontSize="Large" TextColor="black" />
+                </StackLayout>
+            </Frame>
+
+            <Frame BorderColor="Black" Padding="5" BackgroundColor="WhiteSmoke">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Role: " FontSize="Large" HorizontalOptions="Center" TextColor="black"/>
+                    <Label Text="Sentinel" FontSize="Large" TextColor="black" />
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
